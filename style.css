@@ -1,3 +1,4 @@
+/* Global */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffe6f2;
@@ -6,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Header */
+/* Header (jika masih digunakan) */
 header {
     text-align: center;
     background-color: #ffb6c1;
@@ -14,7 +15,40 @@ header {
     color: white;
 }
 
-/* Container foto profil */
+/* 🌸 Navbar (Dari gabungan kode) */
+nav {
+    background-color: #ff9ecb;  /* soft pink */
+    text-align: center;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5c8d; /* hover pink tua */
+    text-decoration: underline;
+}
+
+/* Profile Foto */
 .profile-container {
     display: flex;
     justify-content: center;
@@ -22,9 +56,8 @@ header {
     margin-bottom: 20px;
 }
 
-/* Foto Profil */
 .profile-pic {
-    width: 200px;          /* diperbesar */
+    width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
@@ -36,34 +69,6 @@ header {
 .profile-pic:hover {
     transform: scale(1.08);
     box-shadow: 0 15px 35px rgba(0,0,0,0.4);
-}
-
-/* Navigasi */
-nav {
-    background-color: #ff9ecb;
-    text-align: center;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
 }
 
 /* Intro */
@@ -81,13 +86,14 @@ button {
     font-size: 1em;
     cursor: pointer;
     margin-top: 10px;
+    transition: 0.3s;
 }
 
 button:hover {
     background-color: #ff5c8d;
 }
 
-/* Fitur */
+/* Fitur Section */
 .features {
     background-color: #fff0f6;
     text-align: center;
@@ -140,13 +146,13 @@ blockquote {
     font-size: 0.9em;
 }
 
-/* 🌷 Perubahan baru di branch styling-experiment */
+/* 🌷 Styling Tambahan (branch styling-experiment) */
 h1 {
-    color: #ff1493; /* ubah warna judul jadi pink tua */
+    color: #ff1493;
     text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.5);
 }
 
 h2 {
-    color: #d63384; /* warna tambahan untuk subjudul */
+    color: #d63384;
     text-align: center;
 }
