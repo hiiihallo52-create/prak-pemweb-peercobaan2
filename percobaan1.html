@@ -1,72 +1,77 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Prak PemWeb Agnes</title>
+    <title>Portfolio Agnes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="profile-container">
-            <!-- Ganti nama file sesuai foto kamu -->
-            <img src="profil.jpg" alt="Foto Agnes" class="profile-pic">
-        </div>
-        <h1>Welcome di Website Agnes 🌸</h1>
-        <p>Ngoding tapi tetep cute, ya kan 😚</p>
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang</a></li>
-            <li><a href="#">Galeri</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Kontak</a></li>
+    <!-- 🌸 Navbar -->
+    <nav class="navbar">
+        <div class="logo">Agnes</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <section class="intro">
-        <h2>✨ Tentang Website Ini ✨</h2>
-        <p>
-            Website ini dibuat buat tugas praktikum Pemrograman Web Percobaan 1.
-            Tapi bukan cuma tugas doang sih, di sini aku sekalian belajar mainin
-            warna, ngatur layout, sama nyoba bikin tampilan yang enak dilihat 
-            dan nggak ngebosenin 💅
-        </p>
-        <p>
-            Warna utamanya <strong>pink gemas</strong> — karena pink tuh warna yang lembut, ceria, dan
-            vibes-nya tuh happy banget 💖
-        </p>
-        <button>Mulai Jelajahi</button>
+    <!-- 🌸 Home / Intro -->
+    <section id="home" class="intro">
+        <div class="profile-container">
+            <img src="img/agnes.jpg" alt="Profile" class="profile-pic">
+        </div>
+        <h1>Hai, Aku Agnes! 👋</h1>
+        <p>Mahasiswi Informatika yang suka desain web, kopi susu, dan warna pink.</p>
+        <button onclick="alert('Thank you for visiting!')">Say Hi</button>
     </section>
 
-    <section class="features">
-        <h2>🌼 Fitur Website 🌼</h2>
+    <!-- 🌸 About Section -->
+    <section id="about" class="features">
+        <h2>About Me</h2>
+        <p>Halo! Aku adalah mahasiswi Teknik Informatika yang tertarik pada front-end development dan UI/UX design. Aku suka membuat tampilan website yang estetik dan nyaman dilihat.</p>
+    </section>
+
+    <!-- 🌸 Projects Section -->
+    <section id="projects" class="features">
+        <h2>My Projects</h2>
         <div class="cards">
             <div class="card">
-                <h3>Tampilan Fleksibel</h3>
-                <p>Bisa dibuka di HP atau laptop tanpa bikin tampilannya berantakan.</p>
+                <h3>💻 Portfolio Website</h3>
+                <p>Website pribadi yang dibuat menggunakan HTML dan CSS.</p>
             </div>
             <div class="card">
-                <h3>Warna Menenangkan</h3>
-                <p>Warna pink-nya bikin suasana jadi manis dan nggak bosen dilihat.</p>
+                <h3>📱 Mobile UI Design</h3>
+                <p>Desain aplikasi mobile dengan Figma.</p>
             </div>
             <div class="card">
-                <h3>Tata Letak Simpel</h3>
-                <p>Isi websitenya tertata rapi biar enak dibaca dan nggak bikin pusing.</p>
+                <h3>🍓 Healthy Food Business</h3>
+                <p>Salad buah & banana crispy sejak SMA sampai sekarang.</p>
             </div>
         </div>
     </section>
 
+    <!-- 🌸 Quotes Section -->
     <section class="quotes">
-        <h2>💫 Kata-Kata Hari Ini 💫</h2>
-        <blockquote>"Ngoding tuh gampang... kalo liat orang lain yang ngerjain wkwk"</blockquote>
-        <blockquote>"Jangan takut gagal, takutnya tuh lupa save 😭"</blockquote>
+        <blockquote>
+            “Do what you love, and love what you do.” – Unknown
+        </blockquote>
     </section>
 
+    <!-- 🌸 Contact Section -->
+    <section id="contact" class="features">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach me through:</p>
+        <p>📧 Email: agnes@example.com <br> 📱 Instagram: @agnes.xx</p>
+    </section>
+
+    <!-- 🌸 Footer -->
     <footer class="footer">
-        <p>&copy; 2025 Agnes Anggraini | Dibuat dengan penuh cinta 💖</p>
+        © 2025 Agnes Anggraini | All Rights Reserved
     </footer>
+
 </body>
 </html>
