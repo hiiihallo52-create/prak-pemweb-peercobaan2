@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #ffb6c1;
+    padding: 25px 20px;
+    color: white;
+}
+
+/* Container foto profil */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Foto Profil */
+.profile-pic {
+    width: 200px;          /* diperbesar */
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #fff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.08);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+/* Navigasi */
+nav {
+    background-color: #ff9ecb;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+button {
+    background-color: #ff80ab;
+    color: white;
+    border: none;
+    padding: 12px 10px;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff5c8d;
+}
+
+/* Fitur */
+.features {
+    background-color: #fff0f6;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Quotes */
+.quotes {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffeaf4;
+    font-style: italic;
+}
+
+blockquote {
+    margin: 15px auto;
+    background: white;
+    padding: 15px;
+    border-left: 5px solid #ff80ab;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #ff9ecb;
+    color: white;
+    padding: 15px;
+    font-size: 0.9em;
+}
