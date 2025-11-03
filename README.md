@@ -1,24 +1,39 @@
-# Percobaan 2 - Git & Version Control
-## Mata Kuliah: Pemrograman Web  
-### Nama: Agnes Anggraini  
-### NPM: 215061103  
+# 🌸 Portfolio Website – Agnes Anggraini
+
+Website portofolio sederhana yang dibuat menggunakan **HTML, CSS, dan Git Workflow**.  
+Proyek ini dibuat untuk memenuhi tugas praktikum mata kuliah **Pemrograman Web**.
 
 ---
 
-## 📘 Deskripsi
-Project ini merupakan hasil praktikum **Pemrograman Web Percobaan 2**, yang mempraktikkan penggunaan **Git dan GitHub** untuk version control, serta pembuatan website sederhana dengan HTML & CSS.
+## 📂 Struktur Folder Project
+
 
 ---
 
-## 🔧 Fitur Website
-- Tampilan responsif dengan CSS
-- Warna pastel lembut bertema pink
-- Navigasi, foto profil, dan efek hover
-- Dikelola dengan Git (branch, merge, push ke GitHub)
+## ✨ Fitur Website
+
+✔ Navbar (Home, About, Projects, Contact)  
+✔ Profil + foto bulat estetik dengan hover effect  
+✔ Section About Me  
+✔ Section Projects (dengan card/kartu)  
+✔ Quotes section  
+✔ Contact info  
+✔ Smooth scrolling & sticky navbar  
 
 ---
 
-## 🚀 Cara Menjalankan
-1. Clone repository ini:
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi | Deskripsi |
+|-----------|-----------|
+| HTML5     | Struktur halaman website  |
+| CSS3      | Styling & layout tampilan |
+| Git & GitHub | Version control (commit, branch, merge, push) |
+
+---
+
+## 🚀 Cara Menjalankan Website
+
+1. Clone repository:
    ```bash
-   git clone https://github.com/agnesanggraini/Prak-Pemweb-percobaan-2.git
+   git clone https://github.com/hiiihallo52-create/prak-pemweb-peercobaan2.git
