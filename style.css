@@ -139,3 +139,14 @@ blockquote {
     padding: 15px;
     font-size: 0.9em;
 }
+
+/* 🌷 Perubahan baru di branch styling-experiment */
+h1 {
+    color: #ff1493; /* ubah warna judul jadi pink tua */
+    text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.5);
+}
+
+h2 {
+    color: #d63384; /* warna tambahan untuk subjudul */
+    text-align: center;
+}
