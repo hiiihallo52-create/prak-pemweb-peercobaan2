@@ -5,6 +5,14 @@ Proyek ini dibuat untuk memenuhi tugas praktikum mata kuliah **Pemrograman Web**
 
 ---
 
+## 🔗 Live Demo
+
+Kamu bisa lihat hasil website ini secara langsung di sini 👇  
+🌐 [Klik untuk membuka Portfolio Agnes](https://hiiihallo52-create.github.io/prak-pemweb-peercobaan2/)
+
+---
+
+
 ## 📂 Struktur Folder Project
 
 
